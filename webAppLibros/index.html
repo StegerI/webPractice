@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" href="style.css">
@@ -11,13 +12,11 @@
 	<!-- Menu despleglable -->
 	<div id="mySidenav" class="sidenav">
   		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> <!-- Cruz de cierre -->
-  		<a href="#">Nosotros</a>
   		<a href="#">Busqueda de Libros</a>
-  		<a href="#">Envio Informacion</a>
-  		<a href="#">Contacto</a>
+  		<a href="contacto.html">Contacto</a>
 	</div>
 
-	<span class="menu" id="menu" onclick="openNav()">&#9776</span>
+	<span class="menu" id="menu" onclick="openNav()">&#9776;</span>
 
 	<!-- SlideShow Atomatico -->
 	<section class="carousel">
@@ -37,6 +36,7 @@
 			<p>Filtros de busqueda</p>
 			<input id="search" placeholder="Titulo del Libro">
 			<button id="buscar" type="button">Buscar</button>
+			<button class="compartir" type=button>Compartir con un amigo</button>
 		</div>
 		<div class="books" >
 			<p>Resultados de las busquedas</p>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<script  src="js/jquery.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+</head>
+<body>
+
+	<!-- Menu despleglable -->
+	<div id="mySidenav" class="sidenav">
+  		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> <!-- Cruz de cierre -->
+  		<a href="index.html">Busqueda de Libros</a>
+  		<a href="contacto.html">Contacto</a>
+	</div>
+
+	<span class="menu" id="menu" onclick="openNav()">&#9776;</span>
+
+		
+
+	<!-- Buscador Completo de Libros -->
+	<div class="contenido">
+		<h2>Contacto</h2><br>
+		<div class="contacto" id="contacto">
+			<p><span id="negrita">Librería Utn</span></p>
+			<p><span id="negrita">Teléfono: </span>221-5487894</p>
+			<p><span id="negrita">E-mail: </span>libreriautn@gmail.com</p>
+			<p><span id="negrita">Fax: </span>221-4865462</p>
+			<div id="dirección">
+				<p><span id="negrita">Nuestra dirección</span></p>
+				<div class="map-container">
+					<div id="map">
+					
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer><p>Desarollador por Gazzaniga Ignacio y Steger Ivan</p></footer>
+		
+	<script src="js/menu.js"></script>
+	<script src="js/mapa.js"></script>
+	
+</body>
+</html>
